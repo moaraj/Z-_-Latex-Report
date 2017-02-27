@@ -6,7 +6,7 @@
 \usepackage[letterpaper, portrait, margin=1.5in]{geometry}
 \usepackage{float}
 \usepackage{caption}
-
+\usepackage{cite}
 
 \captionsetup{
 	font=footnotesize,
@@ -22,7 +22,9 @@
 
 \maketitle
 
+\newpage
 \section{Introduction}
+
 
 \section{Data Conditioning}
 
@@ -75,7 +77,7 @@ The cold extraciton protocol uses a methanol, acetonitrile and water mixture to 
 \end{figure}
 
 
-\section{Results}
+\section{Extraction Results}
 
 
 where are the adjsutsted p values and p values gernerated 
@@ -104,9 +106,27 @@ Results indicate the homogenization is not nesceaary to sufficiently extract pol
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{NH24}
-	\caption{Volcano Plot of P-Values and Log2 Fold Chagnes seen between Standard Cold Extraction Protocols with an additional 1hour and 24 hour extraction perdion as compared to the standard cold extraction protocol}
+	\caption{Volcano Plot of P-Values and Log2 Fold Changes seen between Standard Cold Extraction Protocols with an additional 1hour and 24 hour extraction perdion as compared to the standard cold extraction protocol}
 	\label{fig:nh24}
 \end{figure}
+
+\includepdf[pages=-]{bubbles1.pdf}
+
+\subsection{TIC Differences}
+
+\begin{figure}[b]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"../D _ Protocol Optimization 3/TIC"}
+	\caption[Total Ions Counts in Simiplified Extraction Protocol]{}
+	\caption{}
+	\label{fig:tic}
+\end{figure}
+
+
+
+\section{Differential Metabolites}
+
+
 
 
 
@@ -120,10 +140,8 @@ In humans, the reproductive cycle, called the menstrual cycle, lasts approximate
 
 \section{Appendix}
 
-\includepdf[pages=-]{bubbles1.pdf}
 
 
 
-\bibliographystyle{plain}
-\bibliography{bibliography.bib}
+
 \end{document}
